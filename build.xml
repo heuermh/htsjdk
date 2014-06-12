@@ -25,14 +25,14 @@
 
 <project name="htsjdk" basedir="." default="all">
 
-    <property name="src" value="src/java"/>
-    <property name="src.test" value="src/tests"/>
+    <property name="src" value="src/main/java"/>
+    <property name="src.test" value="src/test"/>
     <property name="src.test.java" value="${src.test}/java"/>
     <property name="lib" value="lib"/>
     <property name="dist" value="dist"/>
     <property name="classes" value="classes"/>
     <property name="classes.test" value="testclasses"/>
-    <property name="scripts" value="src/scripts"/>
+    <property name="scripts" value="src/main/scripts"/>
     <property name="test.output" value="dist/test"/>
 
     <property name="javac.target" value="1.6"/>
