@@ -26,9 +26,7 @@ package htsjdk.samtools;
 import org.testng.Assert;
 
 /**
- * Misc methods for SAM-related unit tests.  These are in the src tree rather than the tests tree
- * so that they will be included in sam.jar, and therefore can be used by tests outside of htsjdk.samtools.
- * These methods use org.testng.Assert methods.
+ * Misc methods for SAM-related unit tests.
  */
 public class SAMTestUtil {
     /**
