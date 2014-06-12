@@ -42,7 +42,7 @@ import java.util.Set;
  */
 public class VariantBaseTest {
 
-    public static final String variantTestDataRoot = new File("testdata/htsjdk/variant/").getAbsolutePath() + "/";
+    public static final String variantTestDataRoot = new File("src/test/resources/htsjdk/variant/").getAbsolutePath() + "/";
 
     /**
      * Creates a temp file that will be deleted on exit after tests are complete.

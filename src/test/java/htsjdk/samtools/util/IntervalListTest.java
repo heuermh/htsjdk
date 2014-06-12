@@ -26,7 +26,7 @@ public class IntervalListTest {
     final IntervalList list1, list2, list3;
 
     public IntervalListTest() {
-        fileHeader = IntervalList.fromFile(new File("testdata/htsjdk/samtools/intervallist/IntervalListchr123_empty.interval_list")).getHeader();
+        fileHeader = IntervalList.fromFile(new File("src/test/resources/htsjdk/samtools/intervallist/IntervalListchr123_empty.interval_list")).getHeader();
         fileHeader.setSortOrder(SAMFileHeader.SortOrder.unsorted);
 
         list1 = new IntervalList(fileHeader);
@@ -348,10 +348,10 @@ public class IntervalListTest {
     @DataProvider(name = "VCFCompData")
     public Object[][] VCFCompData() {
         return new Object[][]{
-                new Object[]{"testdata/htsjdk/samtools/intervallist/IntervalListFromVCFTest.vcf", "testdata/htsjdk/samtools/intervallist/IntervalListFromVCFTestComp.interval_list", false},
-                new Object[]{"testdata/htsjdk/samtools/intervallist/IntervalListFromVCFTest.vcf", "testdata/htsjdk/samtools/intervallist/IntervalListFromVCFTestCompInverse.interval_list", true},
-                new Object[]{"testdata/htsjdk/samtools/intervallist/IntervalListFromVCFTestManual.vcf", "testdata/htsjdk/samtools/intervallist/IntervalListFromVCFTestManualComp.interval_list", false},
-                new Object[]{"testdata/htsjdk/samtools/intervallist/IntervalListFromVCFTestManual.vcf", "testdata/htsjdk/samtools/intervallist/IntervalListFromVCFTestCompInverseManual.interval_list", true}
+                new Object[]{"src/test/resources/htsjdk/samtools/intervallist/IntervalListFromVCFTest.vcf", "src/test/resources/htsjdk/samtools/intervallist/IntervalListFromVCFTestComp.interval_list", false},
+                new Object[]{"src/test/resources/htsjdk/samtools/intervallist/IntervalListFromVCFTest.vcf", "src/test/resources/htsjdk/samtools/intervallist/IntervalListFromVCFTestCompInverse.interval_list", true},
+                new Object[]{"src/test/resources/htsjdk/samtools/intervallist/IntervalListFromVCFTestManual.vcf", "src/test/resources/htsjdk/samtools/intervallist/IntervalListFromVCFTestManualComp.interval_list", false},
+                new Object[]{"src/test/resources/htsjdk/samtools/intervallist/IntervalListFromVCFTestManual.vcf", "src/test/resources/htsjdk/samtools/intervallist/IntervalListFromVCFTestCompInverseManual.interval_list", true}
         };
     }
 

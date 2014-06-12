@@ -52,7 +52,7 @@ import java.util.Iterator;
  * @author Doug Voet
  */
 public class ValidateSamFileTest {
-    private static final File TEST_DATA_DIR = new File("testdata/htsjdk/samtools/ValidateSamFileTest");
+    private static final File TEST_DATA_DIR = new File("src/test/resources/htsjdk/samtools/ValidateSamFileTest");
 
     @Test
     public void testValidSamFile() throws Exception {

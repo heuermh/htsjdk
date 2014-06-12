@@ -24,6 +24,6 @@ package htsjdk.tribble;
  * Date: 2012-Dec-13
  */
 public class TestUtils {
-    public static String DATA_DIR = "testdata/htsjdk/tribble/";
+    public static String DATA_DIR = "src/test/resources/htsjdk/tribble/";
     public static String OUTPUT_DIR = DATA_DIR + "tmp/";
 }
