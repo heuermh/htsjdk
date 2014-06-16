@@ -6,7 +6,7 @@
     <artifactId>oss-parent</artifactId>
     <version>9</version>
   </parent>
-  <groupId>samtools</groupId>
+  <groupId>com.github.samtools</groupId>
   <artifactId>htsjdk</artifactId>
   <version>1.115-SNAPSHOT</version>
   <packaging>jar</packaging>
